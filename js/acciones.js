@@ -1,4 +1,4 @@
-//JavaScript Document
+﻿//JavaScript Document
 
 $(document).ready(function (e) {
 	document.addEventListener ("deviceready",function(){
@@ -16,7 +16,7 @@ $('#derecha').on("swiperight",function(){
 			break;
 			
 			case 2:
-			navigator.notification.vibreate(1000);
+			navigator.notification.vibrate(1000);
 			break;
 		}
 	},"Aplicacion ","Beep,Vibrar,Cancelar");
